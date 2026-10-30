@@ -1,0 +1,19 @@
+{
+  "name": "Ilmiy kalkulyator",
+  "short_name": "Kalkulyator",
+  "description": "Offline ishlaydigan ilmiy kalkulyator va funksiya grafigi",
+  "lang": "uz",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

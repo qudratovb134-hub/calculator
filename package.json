@@ -1,0 +1,16 @@
+{
+  "name": "ilmiy-kalkulyator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ilmiy kalkulyator web va Android ilovasi",
+  "scripts": {
+    "build:web": "mkdir -p www && cp index.html www/index.html && cp manifest.webmanifest sw.js www/ && mkdir -p www/icons && cp icons/icon.svg www/icons/icon.svg"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
